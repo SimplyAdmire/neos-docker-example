@@ -1,0 +1,34 @@
+---
+
+TYPO3_TypoScript_Content:
+  backend: TYPO3\Flow\Cache\Backend\RedisBackend
+  backendOptions:
+    defaultLifetime: 0
+    database: 1
+    hostname: 'redis'
+
+Flow_Mvc_Routing_Resolve:
+  backend: TYPO3\Flow\Cache\Backend\RedisBackend
+  backendOptions:
+    defaultLifetime: 0
+    database: 2
+    hostname: 'redis'
+
+Flow_Mvc_Routing_Route:
+  backend: TYPO3\Flow\Cache\Backend\RedisBackend
+  backendOptions:
+    defaultLifetime: 0
+    database: 3
+    hostname: 'redis'
+
+Flow_Session_Storage:
+  backend: TYPO3\Flow\Cache\Backend\RedisBackend
+  backendOptions:
+    database: 4
+    hostname: 'redis'
+
+Flow_Object_Configuration:
+  backend: TYPO3\Flow\Cache\Backend\RedisBackend
+  backendOptions:
+    database: 5
+    hostname: 'redis'

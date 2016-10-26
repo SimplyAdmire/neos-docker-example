@@ -1,0 +1,9 @@
+{
+    "name": "SimplyAdmire.Demo",
+    "description": "",
+    "repository": "",
+    "version": "0.0.0",
+    "scripts": {
+        "bower": "bower --allow-root "
+    }
+}

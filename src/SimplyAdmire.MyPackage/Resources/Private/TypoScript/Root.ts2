@@ -1,0 +1,2 @@
+page = TYPO3.Neos:Page
+page.body.templatePath = 'resource://SimplyAdmire.MyPackage/Private/Templates/DocumentTypes/Page.html'

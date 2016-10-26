@@ -1,0 +1,14 @@
+{
+    "name": "simplyadmire/my-package",
+    "type": "typo3-flow-site",
+    "require": {
+        "typo3/neos": "^2.3",
+        "typo3/neos-nodetypes": "^2.3",
+        "flowpack/elasticsearch-contentrepositoryadaptor": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimplyAdmire\\MyPackage\\": "Classes"
+        }
+    }
+}

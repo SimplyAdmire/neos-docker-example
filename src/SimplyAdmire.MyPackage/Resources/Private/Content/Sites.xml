@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <site name="demo" state="1" siteResourcesPackageKey="SimplyAdmire.MyPackage" siteNodeName="demo">
+        <nodes formatVersion="2.0">
+            <node identifier="739e3ec4-a9c0-433c-a3b9-9a7ccc207138" nodeName="demo">
+                <variant sortingIndex="0" workspace="live" nodeType="TYPO3.Neos:Page" version="0" removed="" hidden="" hiddenInIndex="">
+                    <dimensions/>
+                    <accessRoles __type="array"/>
+                    <creationDateTime __type="object" __classname="DateTime">2016-10-26T11:17:18+00:00</creationDateTime>
+                    <lastModificationDateTime __type="object" __classname="DateTime">2016-10-26T11:17:18+00:00</lastModificationDateTime>
+                    <properties>
+                        <title __type="string">Home</title>
+                    </properties>
+                </variant>
+            </node>
+        </nodes>
+    </site>
+</root>

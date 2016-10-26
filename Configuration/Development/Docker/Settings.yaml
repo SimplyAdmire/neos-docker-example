@@ -1,0 +1,25 @@
+TYPO3:
+  Flow:
+    persistence:
+      backendOptions:
+        host: 'db'
+        dbname: '%env:MYSQL_DATABASE%'
+        user: '%env:MYSQL_USER%'
+        password: '%env:MYSQL_PASSWORD%'
+        driver: 'pdo_mysql'
+
+       # if you want to log executed SQL queries, enable the next 2 lines
+#      doctrine:
+#        sqlLogger: 'TYPO3\Flow\Persistence\Doctrine\Logging\SqlLogger'
+  TYPO3CR:
+    Search:
+      elasticSearch:
+        indexName: '%env:COMPOSE_PROJECT_NAME%'
+Flowpack:
+  ElasticSearch:
+    clients:
+      default:
+        - host: "elastic"
+          port: 9200
+          username: ''
+          password: ''
